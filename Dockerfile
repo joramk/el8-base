@@ -1,11 +1,11 @@
-FROM    centos:7
+FROM    centos:8
 MAINTAINER joramk@gmail.com
 ENV     container docker
 
-LABEL   name="CentOS 7 - Baseimage" \
-        vendor="https://github.com/joramk/el7-base" \
+LABEL   name="CentOS 8 - Baseimage" \
+        vendor="https://github.com/joramk/el8-base" \
         license="none" \
-        build-date="20171008" \
+        build-date="20191128" \
         maintainer="joramk@gmail.com"
 
 RUN {   yum update -y; yum install systemd yum-utils yum-cron epel-release -y; \
