@@ -1,4 +1,4 @@
-# CentOS 8 docker base image with systemd [![Build Status](https://travis-ci.org/joramk/el8-base.svg?branch=master)](https://travis-ci.org/joramk/el8-base)
+# CentOS 8 docker base image with systemd [![Build Status](https://travis-ci.com/joramk/el8-base.svg?branch=master)](https://travis-ci.com/joramk/el8-base)
 - CentOS 8 base system
 - Full systemd support
 
