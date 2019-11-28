@@ -1,10 +1,10 @@
-# CentOS 7 docker base image with systemd [![Build Status](https://travis-ci.org/joramk/el7-base.svg?branch=master)](https://travis-ci.org/joramk/el7-base)
-- CentOS 7 base system
+# CentOS 8 docker base image with systemd [![Build Status](https://travis-ci.org/joramk/el8-base.svg?branch=master)](https://travis-ci.org/joramk/el8-base)
+- CentOS 8 base system
 - Full systemd support
 
 ## Docker run
 ~~~
 docker run -d --tmpfs /run --tmpfs /tmp \
     -v /sys/fs/cgroup:/sys/fs/cgroup:ro \
-    joramk/el7-base:latest
+    joramk/el8-base:latest
 ~~~
