@@ -8,7 +8,7 @@ LABEL   name="CentOS 8 - Baseimage" \
         build-date="20191128" \
         maintainer="joramk@gmail.com"
 
-RUN {   yum update -y; yum install systemd yum-utils yum-cron epel-release -y; \
+RUN {   yum update -y; yum install systemd yum-utils dnf-automatic epel-release -y; \
         yum clean all; rm -rf /var/cache/yum; \
 }
 
